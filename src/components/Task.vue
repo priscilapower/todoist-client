@@ -15,7 +15,7 @@
     span.add-span 작업 추가
 
   .task-form(v-show='showTaskForm')
-    input.form-control.task-input(v-model='task' type='text' placeholder='예. 매일 독서 p3 @목표#공부')
+    input.form-control.task-input(v-model='task' type='text' placeholder='예. 매일 독서 p3 @목표#공부' v-on:keyup.enter='submitTask')
     div
       button.btn.rounded-4.submit-button(@click='submitTask' :disabled='task.length === 0') 작업 추가
       button.btn.rounded-4.cancel-button(@click='cancelTask') 취소
