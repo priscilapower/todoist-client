@@ -225,7 +225,6 @@ export default {
   margin-left: auto;
   margin-right: auto;
   padding-left: 20%;
-  padding-right: 20%;
 }
 
 .msg-1 {
