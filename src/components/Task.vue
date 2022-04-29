@@ -215,7 +215,7 @@ export default {
 
 .no-content {
   flex-direction: column;
-  margin-top: 20%;
+  margin-top: 35%;
 }
 
 .msg-1 {
