@@ -215,20 +215,12 @@ export default {
 
 .no-content {
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-
-  position: absolute;
-  top: 50%;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 20%;
+  margin-top: 20%;
 }
 
 .msg-1 {
-  display: block;
+  display: table;
+  margin: 0 auto;
 
   font-style: normal;
   font-weight: 400;
@@ -237,7 +229,8 @@ export default {
 }
 
 .msg-2 {
-  display: block;
+  display: table;
+  margin: 0 auto;
 
   font-style: normal;
   font-weight: 400;
