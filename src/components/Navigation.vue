@@ -119,7 +119,7 @@ nav {
 
 .text-search {
   position: static;
-  width: 23px;
+  width: 40px;
   height: 18px;
   left: 34px;
   top: 5px;

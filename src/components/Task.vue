@@ -258,7 +258,7 @@ export default {
 
 .add-span {
   position: static;
-  width: 53px;
+  width: 75px;
   height: 21px;
   left: 30px;
   top: 10.5px;
